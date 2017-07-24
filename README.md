@@ -1,17 +1,22 @@
 # ember-semantic-modal
 
-This README outlines the details of collaborating on this Ember addon.
+Use semantic-ui modal in a more convinient and declarative way.
+
+## Why?
+
+The ui-modal semantic component is always present in the DOM even when it's not currently being displayed. It also requires me to write controller code to display the modal.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-semantic-modal`
-* `npm install`
+  `ember install ember-semantic-modal`
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```
+  {{#semantic-modal}}
+    Modal contents goes here
+  {{/semantic-modal}}
+```
 
 ## Running Tests
 
